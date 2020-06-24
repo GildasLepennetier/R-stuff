@@ -1,4 +1,4 @@
-#### use source("/PATH/") #to load those functions
+#### use source("/PATH/") #to load this functions
 col2hex=function(col,alpha=NULL,warn=T){ 
 # Function to convert for colour name like "blue" to hex colors, with possibility to add alpha chanel 
 # This function is NOT a clone of: https://rdrr.io/cran/gplots/man/col2hex.html, but carefull since it is the same name.
