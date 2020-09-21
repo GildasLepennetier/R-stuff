@@ -1,4 +1,4 @@
-#### use source("/PATH/") #to load this functions
+#### use source("https://raw.githubusercontent.com/GildasLepennetier/R-stuff/master/correct_dist_matrix_hamming.R") #to load this functions
 correct_dist_matrix_hamming=function(dist_mat, replace="auto",quiet=F){
 	# This function take a distance matrix using hamming distance and avoid having Infinite distances because of impossible comparison 
 	# This happens when the sequeces does not have the same length.
