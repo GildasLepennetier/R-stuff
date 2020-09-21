@@ -1,4 +1,4 @@
-#### use source("/PATH/") #to load this functions
+#### use source("https://raw.githubusercontent.com/GildasLepennetier/R-stuff/master/human_to_bits.R") #to load this functions
 human_to_bits <- function(x){
 	#convertion human_to_bits("5G")
 	x = gsub(",",".",x)
