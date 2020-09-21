@@ -1,4 +1,4 @@
-#### use source("/PATH/") #to load this function
+#### use source("https://raw.githubusercontent.com/GildasLepennetier/R-stuff/master/pastelist.R") #to load this function
 pastelist=function(l1,l2,sep=":",collapse=";"){
 	# This function paste each elements in lists with each other
 	if(length(l1)!=length(l2)){ warning("Error: list are not the same size!") ; return(NA)}
